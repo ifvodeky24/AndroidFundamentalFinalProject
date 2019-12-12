@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+
+    <string name="genre">Genre:</string>
+    <string name="release_date">Release Date:</string>
+    <string name="description">Description:</string>
+    <string name="poster_picture">Poster Image</string>
+    <string name="_4_3">4.3</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">TV Show</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="appwidget_text">Favorite List</string>
+    <string name="empty_text">No Data</string>
+    <string name="title_text">Movie Catalogue</string>
+    <string name="language">Language Setting</string>
+    <string name="title_language">Change Language</string>
+    <string name="key_language">key_language</string>
+    <string name="summary_language">Tap to change language</string>
+    <string name="notifications">Notification</string>
+    <string name="key_daily_reminder">key_daily_reminder</string>
+    <string name="key_release_reminder">key_release_reminder</string>
+    <string name="summary_daily_reminder">Enable or disable this option</string>
+    <string name="title_daily_reminder">Daily Reminder</string>
+    <string name="title_release_reminder">Today Release Reminder</string>
+    <string name="summary_release_reminder">Enable or disable this option</string>
+    <string name="notifikasi">Have you checked the movie catalog today</string>
+    <string name="trailer">Trailer:</string>
+    <string name="production_company">Production Company:</string>
+    <string name="tag">Tag:</string>
+    <string name="popularity">Popularity:</string>
+    <string name="number_of_episode">Number of Episode:</string>
+    <string name="cast">Casts:</string>
+    <string name="cast_name">Cast Name</string>
+    <string name="cast_image">Cast Image</string>
+    <string name="widget_image">Widget Image</string>
+
+</resources>

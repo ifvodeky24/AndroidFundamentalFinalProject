@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:scrollbars="none"
+    android:paddingStart="8dp"
+    tools:ignore="RtlSymmetry">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent"
+            android:layout_marginEnd="5dp">
+
+            <com.github.florent37.shapeofview.shapes.RoundRectView
+                android:layout_width="130dp"
+                android:layout_height="170dp"
+                app:shape_roundRect_bottomLeftRadius="10dp"
+                app:shape_roundRect_bottomRightRadius="10dp"
+                app:shape_roundRect_topLeftRadius="10dp"
+                app:shape_roundRect_topRightRadius="10dp"
+                app:shape_roundRect_borderWidth="0.1dp">
+
+                <ImageView
+                    android:id="@+id/iv_cast"
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/ic_artikel01"
+                    android:contentDescription="@string/cast_image" />
+
+            </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+            <com.idw.project.cataloguemovie.customFonts.MyTextView_Roboto_Regular
+                android:id="@+id/tv_cast_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cast_name"
+                android:textSize="14sp"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
